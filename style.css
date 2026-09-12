@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+nav {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.home {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home h1 {
+    font-size: 45px;
+}
+
+.home p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+    color: #aaa;
+}
+.decades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px auto 60px;
+    max-width: 1250px;
+}
+
+.decade {
+    background-color: #222;
+    width: 300px;
+    min-height: 230px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.decade:hover {
+    transform: translateY(-8px);
+}
+
+.decade h2 {
+    font-size: 32px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+.decade p {
+    color: #ccc;
+}
+
+.decade a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.decade a:hover {
+    background-color: white;
+}
+
+/* MEMBER PAGES */
+
+.member-page {
+    text-align: center;
+    background-color: #111;
+}
+
+/* Member Title */
+
+.member-page > h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+/* Member Photo */
+
+.member-page #member-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Main Heading */
+
+.member-page > h2:first-of-type {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Decade */
+
+.member-page > h3 {
+    color: #ffcc00;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+/* Movie Titles */
+
+.member-page > h2:not(:first-of-type) {
+    background-color: #222;
+    width: 300px;
+    margin: 30px auto 15px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Movie Posters */
+
+.member-page > h2:not(:first-of-type) + a > img {
+    display: block;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #ffcc00;
+    margin: 0 auto 10px;
+}
+
+
+/* Movie Name */
+
+.member-page > h2:not(:first-of-type) + a +  p {
+    color: #ffcc00;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Movie Description */
+
+.member-page > h2:not(:first-of-type) + a + p + p {
+    color: #ccc;
+    max-width: 500px;
+    margin: 10px auto 30px;
+    line-height: 1.6;
+}
+
+/* Back Button */
+
+#back-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 50px;
+    padding: 12px 25px;
+    background-color: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+#back-button:hover {
+    background-color: white;
+}   
+
+
+/* ABOUT PAGE */
+
+body > h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.team-intro {
+    max-width: 500px;
+    margin: 1px auto;
+    text-align: center;
+    color: #ccc;
+    font-size: 17px;
+}
+
+
+body > h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+/* TEAM CARDS */
+.team {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: px;
+    margin-top: 40px;
+}
+
+
+.team h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.member {
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-8px);
+}
+
+.member img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.member h3 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.member p {
+    color: #ccc;
+    font-size: 14px;
+}
+    
+/* CONTACT PAGE */
+
+.contact-page {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact-page h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.contact-page > p {
+    color: #ccc;
+    font-size: 17px;
+}
+
+.contact-info {
+    width: 500px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #222;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.contact-info h2 {
+    color: #ffcc00;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    color: #ccc;
+    margin: 18px 0;
+}
