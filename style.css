@@ -28,6 +28,7 @@ nav a:hover {
     color: #ffcc00;
 }
 
+/*MAIN PAGE*/
 .home {
     text-align: center;
     padding: 100px 20px;
@@ -43,6 +44,7 @@ nav a:hover {
     font-size: 18px;
 }
 
+/*FIND MOVIES*/
 .button {
     display: inline-block;
     margin-top: 20px;
@@ -68,6 +70,8 @@ footer {
     color: #aaa;
 }
 
+/*======================*/
+/*Movies by Decade*/
 .decades {
     display: flex;
     justify-content: center;
@@ -77,9 +81,7 @@ footer {
     max-width: 1250px;
 }
 
-
-/*======================*/
-/*Movies by Decade*/
+/*DECADE BLOCKS*/
 .decade {
     background-color: #222;
     width: 300px;
@@ -90,11 +92,11 @@ footer {
     box-sizing: border-box;
     transition: 0.3s;
 }
-
 .decade:hover {
     transform: translateY(-8px);
 }
 
+/*TEXT CONTENT*/
 .decade h2 {
     font-size: 32px;
     color: #ffcc00;
@@ -106,6 +108,7 @@ footer {
     color: #ccc;
 }
 
+/*VIEW MOVIES*/
 .decade a {
     display: inline-block;
     margin-top: 10px;
@@ -131,7 +134,7 @@ footer {
 
 /* Member Title */
 
-.member-page > h1 {
+.member-page h1 {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -140,7 +143,7 @@ footer {
 
 /* Member Photo */
 
-.member-page > a > #member-photo {
+.member-page #member-photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -149,36 +152,27 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Main Heading */
-
-.member-page > h2:first-of-type {
+/* MY RECOMMENDATION */
+.member-page h2 {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 /* Decade */
-
-.member-page > h3 {
+.member-page  h3 {
+    display: inline-block;
     color: #ffcc00;
+    border-radius: 8px;
+    background-color: #222;
+    padding: 35px;
     font-size: 25px;
     margin-bottom: 40px;
 }
 
-/* Movie Titles */
-
-.member-page > h2:not(:first-of-type) {
-    background-color: #222;
-    width: 300px;
-    margin: 30px auto 15px;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
-}
 
 /* Movie Posters */
-
-.member-page > h2:not(:first-of-type) + a > img {
+.member-page section img{
     display: block;
     width: 200px;
     height: 280px;
@@ -191,7 +185,7 @@ footer {
 
 /* Movie Name */
 
-.member-page > h2:not(:first-of-type) + a +  p {
+.member-page section h4{
     color: #ffcc00;
     font-size: 22px;
     font-weight: bold;
@@ -200,7 +194,7 @@ footer {
 
 /* Movie Description */
 
-.member-page > h2:not(:first-of-type) + a + p + p {
+.member-page section p {
     color: #ccc;
     max-width: 500px;
     margin: 10px auto 30px;
