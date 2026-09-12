@@ -132,7 +132,7 @@ footer {
 
 /* Member Photo */
 
-.member-page #member-photo {
+.member-page > a > #member-photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
