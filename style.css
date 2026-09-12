@@ -5,6 +5,9 @@ body {
     color: white;
 }
 
+span {
+    font-weight: bold;
+}
 nav {
     background-color: #222;
     padding: 20px;
@@ -33,6 +36,7 @@ nav a:hover {
 
 .home p {
     color: #ccc;
+    line-height: 25px;
     font-size: 18px;
 }
 
@@ -95,6 +99,7 @@ footer {
 }
 
 .decade p {
+    line-height: 25px;
     color: #ccc;
 }
 
