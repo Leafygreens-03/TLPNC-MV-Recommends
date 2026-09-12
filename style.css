@@ -51,6 +51,8 @@ nav a:hover {
     background-color: white;
 }
 
+/*======================*/
+/*Main Footer*/
 footer {
     margin-top: 60px;
     padding: 20px;
@@ -58,6 +60,7 @@ footer {
     text-align: center;
     color: #aaa;
 }
+
 .decades {
     display: flex;
     justify-content: center;
@@ -67,6 +70,9 @@ footer {
     max-width: 1250px;
 }
 
+
+/*======================*/
+/*Movies by Decade*/
 .decade {
     background-color: #222;
     width: 300px;
@@ -107,6 +113,7 @@ footer {
     background-color: white;
 }
 
+/*======================*/
 /* MEMBER PAGES */
 
 .member-page {
@@ -133,9 +140,6 @@ footer {
     border: 3px solid #ffcc00;
     margin-bottom: 20px;
 }
-
-
-
 
 /* Main Heading */
 
@@ -195,8 +199,8 @@ footer {
     line-height: 1.6;
 }
 
+/*======================*/
 /* Back Button */
-
 #back-button {
     display: block;
     width: fit-content;
@@ -209,12 +213,11 @@ footer {
     font-weight: bold;
 }
 
-
 #back-button:hover {
     background-color: white;
 }   
 
-
+/*======================*/
 /* ABOUT PAGE */
 
 body > h1 {
@@ -238,7 +241,7 @@ body > h2 {
     margin-top: 40px;
 }
 
-
+/*======================*/
 /* TEAM CARDS */
 .team {
     text-align: center;
@@ -282,6 +285,7 @@ body > h2 {
     font-size: 14px;
 }
     
+/*======================*/
 /* CONTACT PAGE */
 
 .contact-page {
